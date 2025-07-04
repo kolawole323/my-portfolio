@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min,css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <p>My name is kolawole Andrew</p>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <nav style="background: #000000aa; padding: 10px; text-align: center;">
+            <a href="#about" style="margin: 0 15px; color: white; text-decoration: none;">About</a>
+            <a href="#skills" style="margin: 0 15px; color: white; text-decoration: none;">Skills</a>
+            <a href="#contact" style="margin: 0 15px; color: white; text-decoration: nono;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <img src="profile.jpg" alt="My Photo" />
+        <h2>About Me</h2>
+        <p>I'm a Web Developer and i love building websites and learning new tech like Javascript, Python, and Sql.</p>
+    </section>
+
+    </section class="skills">
+         <h2>My Skills</h2>
+         <ul>
+             <li>HTML & CSS</li>
+             <li>Javascript</li>
+             <li>Python</li>
+             <li>VS Code</li>
+         </ul>
+    </section>
+    <section class="about" id="about">Coding</section>
+    <section class="skills" id="skills">Graphics Design</section>
+    <section class="contact"id="contact">Web Design</section>
+
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Student Details(SQL)</li>
+            <li>personnal Details(SQL)</li>
+            <li>Student Result system (HTML/CSS/JS)</li>
+        </ul>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-buttons">
+            <button onclick=" showEmail()">
+                 <i class="fas fa-evelope"></i> Email
+            </button>
+            <a href="https://wa.me/2347048187723" target="_blank"></a>
+                <button>
+                    <i class="fab fa-whatsapp"></i> Whatsapp
+                </button>
+            </a>
+        </div>
+        <p id="email" style="display: none; margin-top: 10px;">@andrewkolawole75@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kolawole Andrew. All right reserve.<p>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

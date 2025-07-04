@@ -1,0 +1,93 @@
+ body {
+     font-family: 'segoe UI', sans-serif;
+     background: linear-gradient(to right,  #ff512f, #dd2476);
+     margin: 0;
+     padding:0;
+     color:white
+}
+
+header {
+    background: rgba(0, 0, 0, 0.3) ;
+    Padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background:  rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow:  0 0 10px black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+button{
+    background: #fff;
+    color:#333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #ddd;
+}
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.contact-buttons button {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 500px) {
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-buttons button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+/*✨ fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
